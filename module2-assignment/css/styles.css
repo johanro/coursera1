@@ -1,0 +1,86 @@
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin-bottom: 2.5px;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  border: 1px solid black;
+  padding: 35px 15px 10px 15px;
+  background-color: lightgrey;
+  height: 150px auto;
+  margin-right: 10px;
+  margin-left: 10px;  
+  font-family: Helvetica;
+  color: black;
+}
+
+
+/* Box headings */
+section {
+  border: 1px solid black;
+  text-align: center;
+  padding: 2px 25px 3px 25px;
+  font-weight: bold;
+}
+#sec1 {
+  float: right;
+  background-color: lightpink;
+  margin-top: 16px;
+  margin-right: 10px;
+}
+#sec2 {
+  float: right;
+  background-color: red;
+  color: white;
+  margin-top: 16px;
+  margin-right: 10px;
+}
+#sec3 {
+  float: right;
+  background-color: yellow;
+  margin-top: 16px;
+  margin-right: 10px;
+}
+
+/* Simple Responsive Framework */
+.row {
+  width: 100%;
+}
+
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+  .col-lg {
+    float: left;
+    border: none;
+    width: 33.33%;
+  }
+}
+
+/********** Tablets only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md {
+    float: left;
+    border: none;
+    width: 50%;
+  }
+  .col-md2 {
+    float: left;
+    border: none;
+    width: 100%;
+  }
+}
+
+/********** Mobile **********/
+@media (max-width: 767px) {
+  .col-sm {
+    float: left;
+    border: none;
+    width: 100%;
+  }
+}
