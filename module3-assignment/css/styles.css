@@ -17,7 +17,6 @@ div#bs-example-navbar-collapse-1.navbar-collapse.collapse.in {
 }
 
 #bs-example-navbar-collapse-1 a {
-	text-align: center;
 	color: black;
 	padding-top: 3px;
 	padding-bottom: 3px;
@@ -38,7 +37,6 @@ div#bs-example-navbar-collapse-1.navbar-collapse.collapse.in {
 }
 
 .section_head {
-	text-align: center;
 	font-weight: bold;
 	font-size: 1.2em;
 	margin-bottom: 10px;
